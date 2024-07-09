@@ -12,5 +12,6 @@ namespace Login_JWT.Data
 
         public DbSet<UsuarioModel> Usuario { get; set; }
 
+        public DbSet<Task> Tasks { get; set; }
     }
 }
